@@ -1,0 +1,142 @@
+* {
+    font-family: "Exo 2", sans-serif;
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block1 {
+    width: 100%;
+    height: 280px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    width: auto;
+    height: 130px;  
+}
+.appname {
+    color: whitesmoke;
+    font-size: 55px;
+    margin-top: 0px;
+    font-family: "Allura", cursive;
+    margin-bottom: 10px;
+}
+
+.block2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 85%;
+}
+.username {
+    background-color: #262626;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+}
+.password {
+    background-color: #262626;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+}
+.password_ver {
+    background-color: #262626;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #F06D48;
+}
+
+.done {
+    color: #262626;
+    font-weight: 600;
+    background-color: #F06D48;
+    border: 2px solid rgba(240, 109, 72, 1);
+    border-radius: 15px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.done:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: white;
+    background-color: #262626;
+    font-weight: 300;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+}
+.block3 {
+    margin-top: 20px;
+}
+
+.uzhe {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.20);
+    font-size: 14px;
+}
+.uzhe2 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 10px;
+    margin: 0;
+    margin-top: 14px;
+}
+.link {
+    color: #F06D48;
+}
+a:visited {
+  color: #F06D48;
+  text-decoration: none;
+  
+}
+a {
+    text-decoration: none;
+}
+
+.password_block {
+  position: relative;
+}
+
+.eye,
+.eye2 {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}

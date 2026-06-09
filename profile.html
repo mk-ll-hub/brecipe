@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="img/icon 192 (1).png">
+    <link rel="apple-touch-icon" href="img/icon 192 (1).png">
+
+    <link rel="stylesheet" href="style/profile.css">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <button class="back" onclick="window.location.href = 'index.html'">
+            <img src="img/previous.png" alt="" class="back_icon">
+        </button>
+        <P class="label">Профиль</P>
+    </header>
+
+    <div class="block">
+        <div class="profile_info">
+            <div class="avatar_cont">
+                <img src="img/icon profile.png" alt="" class="avatar">
+            </div>
+            <div class="name_cont">
+                <p class="name">user</p>
+            </div>
+
+        </div>
+
+        <div class="button_cont">
+            <button class="exit">Выйти</button>
+        </div>
+    </div>
+    
+
+    
+
+
+
+
+    <div class="modal">
+        <div class="modal-content">
+            
+
+            <p class="que">Вы хотите выйти из аккаунта?</p>
+
+            <div class="buttons">
+                <button class="yes">Да</button>
+                <button class="no">Нет</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script/profile.js"></script>
+</body>
+</html>
