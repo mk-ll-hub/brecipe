@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brecipe recipe creator</title>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="img/icon 192 (1).png">
+    <link rel="apple-touch-icon" href="img/icon 192 (1).png">
+
+    <link rel="stylesheet" href="style/creator.css">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <button class="back" onclick="window.location.href = 'index.html'">
+            
+            <img src="img/previous.png" alt="" class="back_icon">
+        </button>
+        <button class="create">
+            <div class="progress"></div>
+            <span>Добавить рецепт</span>
+        </button>
+    </header>
+
+    <div class="all_blocks">
+        <div class="img_block">
+            <p><span class="dot">*</span>Фото блюда (горизонтально):</p>
+            <label for="photoInput" class="upload-image">
+                <img src="" alt="" class="preview-image">
+                <img src="img/add-image.png" alt="" class="upload_icon">
+            </label>
+
+            <input
+                type="file"
+                id="photoInput"
+                class="photo"
+                accept="image/*"
+            >
+        </div>
+
+        <div class="description_block">
+            <p><span class="dot">*</span>Название блюда:</p>
+            <input type="text" name="" id="" class="field">
+
+            <p><span class="dot">*</span>Описание:</p>
+            <input type="text" name="" id="" class="field">
+
+        </div>
+        
+    </div>
+
+    
+    
+    
+
+    <script src="script/creator.js"></script>
+</body>
+</html>
